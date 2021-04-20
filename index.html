@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Musical Romance</title>
+    <title>My Movie Finder</title>
     <link rel="stylesheet" href="styles.css">
+    <!--External stylesheet to get the "search"-icon for the navbar-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--<link rel="icon" href="images/Oranges_icon.png" sizes="16x16">-->
+    <link rel="icon" href="images/icon.png" sizes="16x16">
 </head>
 <body>
     <div class="topnav" id="navbar">
-        <h1 id="appTitle">My Musical Romance</h1>
-            <!--<button id="resultClear" >Clear results</button>-->
+        <h1 id="appTitle">My Movie Finder</h1>
             <form id="navSearch" class="inputSearch">
                 <input type="text" placeholder="Search..." id="topSearch">
                 <button type="submit" class="searchIcon"><i class="fa fa-search"></i></button>
@@ -22,20 +22,10 @@
     <div id="searchDiv" class="mainCont">
         <form id="mainContSearch" class="inputSearch">
             <input type="text" placeholder="Search movies..." id="mainSearch">
-            <!--<button type="submit" class="searchIcon"><i class="fa fa-search"></i></button>-->
         </form>
-        <!--
-        <div class="dropdown">
-            <button id="dropbtn">Select a series</button>
-            <div id="dropdownList" class="dropdown-content">
-                <a href="#">Artist 1</a>
-                <a href="#">Artist 2</a>
-                <a href="#">Artist 3</a>
-                <a href="#">Artist 4</a>
-            </div>
-        </div>-->
     </div>
 
+    <!--Initally hidden div, all fetched data will be displayed here-->
     <div id="listDiv" class="mainCont hidden">
         <button id="resultClear" >Clear results</button>
     </div>
