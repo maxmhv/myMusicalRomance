@@ -19,7 +19,7 @@ for (i=0; i<inputs.length; i++){
 }
 //Basic fetch API, uses the saved input for the fetch
 function goFetch(inputData){
-    fetch("http://www.omdbapi.com/?apikey=f1ce59a3&s="+inputData)
+    fetch("https://www.omdbapi.com/?apikey=f1ce59a3&s="+inputData)
         .then((response) => {
         return response.json();
     })
