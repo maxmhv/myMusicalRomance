@@ -12,18 +12,32 @@
 <body>
     <div class="topnav" id="navbar">
         <h1 id="appTitle">My Musical Romance</h1>
-        <button id="resultClear">Clear results</button>
-        <form id="navSearch" class="inputSearch">
-            <input type="text" placeholder="Search..." id="topSearch">
-            <button type="submit" class="searchIcon"><i class="fa fa-search"></i></button>
-        </form>
+            <!--<button id="resultClear" >Clear results</button>-->
+            <form id="navSearch" class="inputSearch">
+                <input type="text" placeholder="Search..." id="topSearch">
+                <button type="submit" class="searchIcon"><i class="fa fa-search"></i></button>
+            </form>
     </div>
 
     <div id="searchDiv" class="mainCont">
         <form id="mainContSearch" class="inputSearch">
-            <input type="text" placeholder="Search music..." id="mainSearch">
+            <input type="text" placeholder="Search movies..." id="mainSearch">
             <!--<button type="submit" class="searchIcon"><i class="fa fa-search"></i></button>-->
         </form>
+        <!--
+        <div class="dropdown">
+            <button id="dropbtn">Select a series</button>
+            <div id="dropdownList" class="dropdown-content">
+                <a href="#">Artist 1</a>
+                <a href="#">Artist 2</a>
+                <a href="#">Artist 3</a>
+                <a href="#">Artist 4</a>
+            </div>
+        </div>-->
+    </div>
+
+    <div id="listDiv" class="mainCont hidden">
+        <button id="resultClear" >Clear results</button>
     </div>
     
 </body>
